@@ -1,0 +1,27 @@
+{
+    "db_url": "postgresql://postgres:Aryan@localhost:5432/cleaned_data_store",
+    "data_set_path": "auto-mpg.data",
+    "table_name": "auto_mpg_silver",
+    "save_path": "mpg_silver_new.csv",
+    "column_names": [
+      "mpg",
+      "cylinders",
+      "displacement",
+      "horsepower",
+      "weight",
+      "acceleration",
+      "model_year",
+      "origin",
+      "car_name"
+    ],
+    "numeric_columns": [
+      "mpg",
+      "cylinders",
+      "displacement",
+      "horsepower",
+      "weight",
+      "acceleration",
+      "model_year",
+      "origin"
+    ]
+  }
